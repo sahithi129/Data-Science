@@ -33,6 +33,10 @@ https://en.wikipedia.org/wiki/Quadratic_classifier
 # K Nearest Neighbors Classification Model:
 the k-nearest neighbors algorithm (k-NN) is a non-parametric method used for classification and regression. In both cases, the input consists of the k closest training examples in the feature space. In k-NN classification, the output is a class membership. An object is classified by a majority vote of its neighbors, with the object being assigned to the class most common among its k nearest neighbors (k is a positive integer, typically small). If k = 1, then the object is simply assigned to the class of that single nearest neighbor.
 
-I used IRIS dataset to classify flower into it's class, this algorithm uploaded above finds the best 'k' based on the accuracy scores by plotting accuracy vs k values for 112 classes. Reporting the accuracy scores by picking up the best 'k' obtained from the graph. By using 'timeit' function you can check the performance of the algorithm which just takes about 1.5 milliseconds as '%timeit a.predict(X_test,25)' in the IPython Console.
+Implemented KNN from scratchI using IRIS dataset to classify flower into it's respective class,  the algorithm above finds the best 'k' based on the accuracy scores by plotting accuracy vs k values for 112 classes. Reporting the accuracy scores by picking up the best 'k' obtained from the graph. By using 'timeit' function you can check the performance of the algorithm which just takes about 1.5 milliseconds as '%timeit a.predict(X_test,25)' in the IPython Console.
 
+# Logistic Regression:
 
+Logistic regression is a classification algorithm used to assign observations to a discrete set of classes. Unlike linear regression which outputs continuous number values, logistic regression transforms its output using the logistic sigmoid function to return a probability value which can then be mapped to two or more discrete classes.
+
+Here I have implemented Logistic Regression from scratch without using any predefined libraries on Modified MNIST dataset which consists of 12000 samples of only 2 and 3 digits. Classified 8000 new images into their respective classes with accuracy of about 96%. 
