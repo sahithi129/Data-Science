@@ -19,3 +19,7 @@ The Perceptron Algorithm:
     t ← t + 1.
     
 So, this seems reasonable. If we make a mistake on a positive x we get wt+1 ·x = (wt+x)·x = wt·x+1, and similarly if we make a mistake on a negative x we have wt+1 ·x = (wt−x)·x =wt·x − 1. So, in both cases we move closer (by 1) to the value we wanted.
+
+# Dimensionality Reduction:
+
+# Linear Discriminant Analysis and Quadratic Discriminant Analysis
