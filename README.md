@@ -22,4 +22,10 @@ So, this seems reasonable. If we make a mistake on a positive x we get wt+1 ·x 
 
 # Dimensionality Reduction:
 
-# Linear Discriminant Analysis and Quadratic Discriminant Analysis
+# Linear Discriminant Analysis and Quadratic Discriminant Analysis:
+
+Linear discriminant analysis (LDA), normal discriminant analysis (NDA), or discriminant function analysis is a generalization of Fisher's linear discriminant, a method used in statistics, pattern recognition and machine learning to find a linear combination of features that characterizes or separates two or more classes of objects or events. The resulting combination may be used as a linear classifier, or, more commonly, for dimensionality reduction before later classification.
+https://en.wikipedia.org/wiki/Linear_discriminant_analysis
+
+Quadratic discriminant analysis (QDA) is closely related to linear discriminant analysis (LDA), where it is assumed that the measurements from each class are normally distributed. Unlike LDA however, in QDA there is no assumption that the covariance of each of the classes is identical. When the normality assumption is true, the best possible test for the hypothesis that a given measurement is from a given class is the likelihood ratio test. 
+https://en.wikipedia.org/wiki/Quadratic_classifier
