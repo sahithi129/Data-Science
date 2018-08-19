@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 
-Perceptron Algorithm
+Perceptron Algorithm from scratch
 
 """
 
