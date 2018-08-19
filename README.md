@@ -29,3 +29,10 @@ https://en.wikipedia.org/wiki/Linear_discriminant_analysis
 
 Quadratic discriminant analysis (QDA) is closely related to linear discriminant analysis (LDA), where it is assumed that the measurements from each class are normally distributed. Unlike LDA however, in QDA there is no assumption that the covariance of each of the classes is identical. When the normality assumption is true, the best possible test for the hypothesis that a given measurement is from a given class is the likelihood ratio test. 
 https://en.wikipedia.org/wiki/Quadratic_classifier
+
+# K Nearest Neighbors Classification Model:
+the k-nearest neighbors algorithm (k-NN) is a non-parametric method used for classification and regression. In both cases, the input consists of the k closest training examples in the feature space. In k-NN classification, the output is a class membership. An object is classified by a majority vote of its neighbors, with the object being assigned to the class most common among its k nearest neighbors (k is a positive integer, typically small). If k = 1, then the object is simply assigned to the class of that single nearest neighbor.
+
+I used IRIS dataset to classify flower into it's class, this algorithm uploaded above finds the best 'k' based on the accuracy scores by plotting accuracy vs k values for 112 classes. Reporting the accuracy scores by picking up the best 'k' obtained from the graph. By using 'timeit' function you can check the performance of the algorithm which just takes about 1.5 milliseconds as '%timeit a.predict(X_test,25)' in the IPython Console.
+
+
